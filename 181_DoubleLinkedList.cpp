@@ -119,7 +119,7 @@ void deleteNode()
         {   //if there's successor, update is prev pointer
             current->next->prev = previous;
         }
-    }
+    } 
 
     //release the memory of the node marked as current
     delete current;
